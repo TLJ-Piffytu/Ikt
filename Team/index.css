@@ -1,0 +1,38 @@
+.title {
+    text-align: center;
+    padding: 10vh;
+    margin-top: 10vh;
+}
+
+.title h1 {
+    font-size: 10vh;
+}
+
+.us {
+    text-align: center;
+}
+
+.end {
+    background-color: black;
+    padding: 20px;
+    margin-top: 10vh;
+}
+
+.end-links {
+    color: white;
+    margin: 0px 30px;
+}
+
+.end-links p {
+    margin: 0px 0px 1px;
+}
+
+.links, .links:visited, .links:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
