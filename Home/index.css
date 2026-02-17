@@ -50,8 +50,6 @@
     padding: 20px;
     border-radius: 10px;
     margin: auto;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
 }
 
 .bar-element {
@@ -72,8 +70,33 @@
     aspect-ratio: initial;
 }
 
-.why {
+.why, .plans, .bar {
     margin: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
+}
+
+.end {
+    background-color: black;
+    padding: 20px;
+    margin-top: 10vh;
+}
+
+.end-links {
+    color: white;
+    margin: 0px 30px;
+}
+
+.end-links p {
+    margin: 0px 0px 1px;
+}
+
+.links, .links:visited, .links:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: whitesmoke;
+    text-decoration: underline;
 }
