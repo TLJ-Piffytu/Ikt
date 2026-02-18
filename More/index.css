@@ -53,6 +53,19 @@
     z-index: 1;
 }
 
+.milestone::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -16px;
+    background-color: white;
+    border: 4px solid black;
+    top: 15px;
+    border-radius: 0px;
+    z-index: 1;
+}
+
 /* Place the container to the left */
 .left {
     left: 0;
@@ -96,6 +109,10 @@
     left: -12px;
 }
 
+.milestone.right::after {
+    left: -14px;
+}
+
 /* The actual content */
 .content {
     padding: 20px 30px;
@@ -132,6 +149,10 @@
     .left::after,
     .right::after {
         left: 18px;
+    }
+
+    .milestone::after {
+        left: 16px
     }
 
     /* Make all right containers behave like the left ones */
