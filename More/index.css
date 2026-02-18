@@ -151,7 +151,7 @@
         left: 18px;
     }
 
-    .milestone::after {
+    .milestone.right::after {
         left: 16px
     }
 
