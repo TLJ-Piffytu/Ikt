@@ -1,11 +1,16 @@
 .title {
     text-align: center;
     padding: 10vh;
-    margin-top: 10vh;
+    background-color: black;
+    color:white;
+    width: 100%;
+    margin-bottom: 10vh;
 }
 
 .title h1 {
     font-size: 10vh;
+    color: white;
+    font-weight: bold;
 }
 
 .us {
